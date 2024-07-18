@@ -1,0 +1,26 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: #00000077;
+    flex-shrink: 0;
+    bottom: 0;
+    nav {
+        flex-grow: 1;
+        ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            padding: 0;
+            margin: 0;
+            li {
+                margin: 0 20px;
+                a {
+                    color: #000000;
+                    text-decoration: none;
+                    font-size: 18px;
+                }
+            }
+        }
+    }  
+}

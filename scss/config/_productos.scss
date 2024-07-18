@@ -1,0 +1,26 @@
+.calzados {
+    text-align: center;
+    padding: 20px;
+}
+
+.productos-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.producto {
+    flex: 0 1 calc(25% - 20px);
+    box-sizing: border-box;
+    text-align: center;
+    margin: 10px;
+    img {
+        max-width: 100%;
+        height: auto;
+        p {
+            margin-top: 10px;
+            font-size: 15px;
+        }
+    }
+}

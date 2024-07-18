@@ -1,0 +1,46 @@
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar {
+    width: 100%;
+    padding: 20px 40px;
+}
+
+.navbar-brand, .nav-link {
+    color: #000000 
+}
+
+.navbar-logo {
+    max-height: 80px;
+    margin-left: 10px;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-nav .nav-item a:hover {
+    font-size: 40px;
+  }
+  
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1);
+}
