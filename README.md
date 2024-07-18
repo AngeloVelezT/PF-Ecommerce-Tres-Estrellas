@@ -1,0 +1,1 @@
+Este código es de un Ecommerce llamado "Tres Estrellas" dedicado a la venta de calzados. Está hecho con html, css y bootstrap y tiene un diseño responsive, haino que se adapte a distintos amaños de pantallas,
